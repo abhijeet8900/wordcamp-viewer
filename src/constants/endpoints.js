@@ -1,0 +1,1 @@
+export const WORDCAMP_BASE_URI = 'https://central.wordcamp.org/wp-json/wp/v2/'
