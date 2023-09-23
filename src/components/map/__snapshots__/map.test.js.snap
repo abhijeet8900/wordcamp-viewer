@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map tests Snapshot test  1`] = `
+<div>
+  <div
+    class="max-w-5xl w-full h-[40rem] mx-auto"
+  >
+    <div
+      style="width: 100%; height: 100%; margin: 0px; padding: 0px; position: relative;"
+    >
+      <div
+        style="width: 100%; height: 100%; left: 0px; top: 0px; margin: 0px; padding: 0px; position: absolute;"
+      />
+      <div
+        style="width: 50%; height: 50%; left: 50%; top: 50%; margin: 0px; padding: 0px; position: absolute;"
+      >
+        <div
+          style="width: 100%; height: 100%; left: 0px; top: 0px; margin: 0px; padding: 0px; position: absolute;"
+        >
+          <div
+            style="width: 0px; height: 0px; left: -223.17825015466684px; top: -156.8669952052012px; background-color: transparent; position: absolute;"
+          >
+            <div
+              class="pin"
+              data-testid="event-wordcamp-whitley-bay"
+              id="event-wordcamp-whitley-bay"
+            >
+              <svg
+                aria-hidden="true"
+                class="pin-icon"
+                height="1em"
+                role="img"
+                style="color: gray; font-size: 16px;"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            style="width: 0px; height: 0px; left: -157.97826693688899px; top: -100.37795005381531px; background-color: transparent; position: absolute;"
+          >
+            <div
+              class="pin"
+              data-testid="event-wordcamp-skopje-2"
+              id="event-wordcamp-skopje-2"
+            >
+              <svg
+                aria-hidden="true"
+                class="pin-icon"
+                height="1em"
+                role="img"
+                style="color: gray; font-size: 16px;"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
