@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import CalendarComponent from "./components/calendar";
 import Layout from "./components/layout";
@@ -7,9 +7,10 @@ import Map from "./components/map";
 
 const App = () => {
   const { events, isEventsFetched, error } = useFetchEvents();
+  const [selectedEevent, setSelectedEvent] = useState({});
 
   if (error) {
-    console.error('Something went wrong, please check console !!! ');
+    console.error("Something went wrong, please check console !!! ");
     return (
       <Layout>
         <div> Something has gone wrong, please check console</div>
@@ -27,8 +28,13 @@ const App = () => {
 
   return (
     <Layout>
-      <CalendarComponent events={events} />
-      <Map events={events} />
+      <CalendarComponent
+        events={events}
+        onSelectEvent={(event) => {
+          setSelectedEvent(event);
+        }}
+      />
+      <Map events={events} selectedEvent={selectedEevent} />
     </Layout>
   );
 };
