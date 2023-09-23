@@ -5,7 +5,7 @@ import App from './App.js';
 describe('App tests', () => {
     it('should contains the heading 1', () => {
     render(<App />);
-        const heading = screen.getByText(/Welcome/i);
+        const heading = screen.getByText(/WordCamp Viewer/i);
         expect(heading).toBeInTheDocument()
     });
 });
