@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import CalendarComponent from "./components/calendar";
-import Layout from "./components/Layout";
+import Layout from "./components/layout";
 import useFetchEvents from '../utils/hooks/useFetchEvents'
 const App = () => {
 
