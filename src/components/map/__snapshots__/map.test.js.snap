@@ -3,7 +3,7 @@
 exports[`Map tests Snapshot test  1`] = `
 <div>
   <div
-    class="max-w-5xl w-full h-[40rem] mx-auto"
+    class="max-w-5xl w-full h-[40rem] mx-auto mt-10"
   >
     <div
       style="width: 100%; height: 100%; margin: 0px; padding: 0px; position: relative;"
