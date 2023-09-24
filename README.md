@@ -11,7 +11,8 @@
 
 Welcome to our WordCamp Events Viewer! Explore a dynamic calendar showcasing upcoming WordCamp events, allowing you to plan your schedule conveniently. Additionally, our interactive map provides a geographical view, helping you pinpoint events in your preferred locations. Stay informed and connected with the vibrant WordPress community through this intuitive and visual platform. Discover WordCamp events, mark your calendars, and engage with like-minded enthusiasts! - ChatGPT 
 
-![image](https://github.com/abhijeet8900/wordcamp-viewer/assets/20452490/d232eb26-376a-4b5a-90c3-49f381baaeb3)
+![image](https://github.com/abhijeet8900/wordcamp-viewer/assets/20452490/40209659-cc2a-4c19-bc8e-971943f0ffcb)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
