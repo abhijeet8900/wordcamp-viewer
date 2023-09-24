@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidbar tests Snapshot test  1`] = `
+<div>
+  <div
+    class="w-full max-w-[304px] flex flex-col shadow-md mt-[42px] p-2 text-black text-lg max-h-[700px]"
+  >
+    <h2
+      class="w-full font-bold text-2xl text-primary"
+    >
+      WordCamp Netherlands
+    </h2>
+    <p
+      class="mt-4 h-[454px] max-h-[454px] leading-[24px] text-lg  overflow-ellipsis overflow-hidden"
+    >
+      Test Event Excerpt
+    </p>
+    <div>
+      <span
+        class="w-full mt-2 text-xl font-semibold "
+      >
+        Venue : 
+      </span>
+      <span
+        class="text-base"
+      >
+        Antoon van Hooffplein 1
+6816 SH Arnhem
+The Netherlands
+      </span>
+    </div>
+    <div>
+      <span
+        class="w-full mt-2 text-xl font-semibold "
+      >
+        Date & Timing : 
+      </span>
+      <span
+        class="text-base"
+      >
+        Sep 7, 2023
+      </span>
+    </div>
+    <div>
+      <span
+        class="w-full mt-2 text-xl font-semibold "
+      >
+        Organizer : 
+      </span>
+      <a
+        class="text-base"
+        href="https://profiles.wordpress.org/Rosanne van Staalduinen/"
+      >
+        <span>
+          Rosanne van Staalduinen
+        </span>
+      </a>
+    </div>
+    <a
+      class="w-full mt-2 "
+      href="https://central.wordcamp.org/wordcamps/wordcamp-netherlands-3/"
+    >
+      <button
+        class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+      >
+        More Details
+      </button>
+    </a>
+  </div>
+</div>
+`;

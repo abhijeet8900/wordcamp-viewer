@@ -7,3 +7,12 @@
 export const findEvent = (events = [], eventId) => {
   return events.find((e) => e.id === eventId);
 };
+
+/**
+ * Formats date into viewable string 
+ * @param {Date} date  
+ * @returns {String} Formatted string for given date
+ */
+export const getFormattedDate =(date = new Date()) =>{
+  return `${date.toLocaleString('en-US', { month: 'short' })} ${date.getDate()}, ${date.getFullYear()}`
+}

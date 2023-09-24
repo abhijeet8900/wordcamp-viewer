@@ -6,6 +6,7 @@ import useFetchEvents from "../utils/hooks/useFetchEvents";
 import Map from "./components/map";
 import Tabs from "./components/tabs";
 import { tabOptions } from "./constants/views";
+import SideBar from "./components/sideBar";
 
 const App = () => {
   const { events, isEventsFetched, error } = useFetchEvents();
@@ -31,23 +32,36 @@ const App = () => {
 
   return (
     <Layout>
-      <Tabs
-        options={tabOptions}
-        onClick={(view) => {
-          setView(view);
-        }}
-      />
-      {view === "calendar-view" && (
-        <CalendarComponent
-          events={events}
-          onSelectEvent={(event) => {
-            setSelectedEvent(event);
+      <div className="w-full flex flex-col">
+        <Tabs
+          options={tabOptions}
+          onClick={(view) => {
+            setView(view);
           }}
         />
-      )}
-      {view === "map-view" && (
-        <Map events={events} selectedEvent={selectedEevent} />
-      )}
+        {view === "calendar-view" && (
+          <CalendarComponent
+            events={events}
+            onSelectEvent={(event) => {
+              setSelectedEvent(event);
+            }}
+          />
+        )}
+        {view === "map-view" && (
+          <Map
+            events={events}
+            selectedEvent={selectedEevent}
+            onSelectEvent={(event) => {
+              setSelectedEvent(event);
+            }}
+          />
+        )}
+      </div>
+      <SideBar
+        events={events}
+        selectedEvent={selectedEevent}
+        changeView={(view) => setView(view)}
+      />
     </Layout>
   );
 };

@@ -10,7 +10,7 @@ const getEventLocation = (event) => {
         event?._venue_coordinates?.latitude || event?._host_coordinates?.latitude,
       lng:
         event?._venue_coordinates?.longitude || event?._host_coordinates?.longitude,
-      id: event?.slug,
+      id: event?.id,
     };
   }
   return null;
