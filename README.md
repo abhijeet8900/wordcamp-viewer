@@ -2,7 +2,11 @@
 <a name="readme-top"></a>
 
 <h3 align="center">WordCamp Viewer</h3>
-[![codecov](https://codecov.io/gh/abhijeet8900/wordcamp-viewer/graph/badge.svg?token=5E7D4KVRTX)](https://codecov.io/gh/abhijeet8900/wordcamp-viewer)
+
+<a href="https://codecov.io/gh/abhijeet8900/wordcamp-viewer" >
+<img src="https://codecov.io/gh/abhijeet8900/wordcamp-viewer/graph/badge.svg?token=5E7D4KVRTX"/>
+</a>
+
 </div>
 
 
