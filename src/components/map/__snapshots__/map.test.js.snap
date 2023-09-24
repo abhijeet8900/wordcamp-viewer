@@ -3,7 +3,7 @@
 exports[`Map tests Snapshot test  1`] = `
 <div>
   <div
-    class="max-w-5xl w-full h-[40rem] mx-auto mt-10"
+    class="w-full max-w-5xl h-[720px] mx-auto"
   >
     <div
       style="width: 100%; height: 100%; margin: 0px; padding: 0px; position: relative;"
@@ -21,9 +21,9 @@ exports[`Map tests Snapshot test  1`] = `
             style="width: 0px; height: 0px; left: -223.17825015466684px; top: -156.8669952052012px; background-color: transparent; position: absolute;"
           >
             <div
-              class="pin"
+              class="pin cursor-pointer"
               data-testid="event-wordcamp-whitley-bay"
-              id="event-wordcamp-whitley-bay"
+              id="event-3237405"
             >
               <svg
                 aria-hidden="true"
@@ -47,9 +47,9 @@ exports[`Map tests Snapshot test  1`] = `
             style="width: 0px; height: 0px; left: -157.97826693688899px; top: -100.37795005381531px; background-color: transparent; position: absolute;"
           >
             <div
-              class="pin"
+              class="pin cursor-pointer"
               data-testid="event-wordcamp-skopje-2"
-              id="event-wordcamp-skopje-2"
+              id="event-undefined"
             >
               <svg
                 aria-hidden="true"

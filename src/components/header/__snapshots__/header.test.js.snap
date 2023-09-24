@@ -3,11 +3,14 @@
 exports[`Header tests Snapshot test  1`] = `
 <div>
   <a
+    class="no-underline flex"
     href="https://central.wordcamp.org/"
   >
     <h1
-      class="w-full mx-auto text-primary font-bold text-center text-6xl my-4 leading-normal"
+      class="w-full flex justify-center items-center text-primary font-bold text-center text-6xl my-4 leading-normal"
     >
+      <span />
+       
       WordCamp Viewer
     </h1>
   </a>
