@@ -3,8 +3,9 @@ import GoogleMapReact from "google-map-react";
 import Marker from "./marker";
 import { transformEventData } from "./helper";
 import getEventLocation from "../../../utils/functions/getEventLocation";
+import { findEvent } from "../../../utils/functions/miscellaneous";
 
-const Map = ({ events, selectedEvent }) => {
+const Map = ({ events, selectedEvent, onSelectEvent }) => {
   const eventLocations = transformEventData(events);
 
   const [userLocation, setUserLocation] = useState({
@@ -26,7 +27,7 @@ const Map = ({ events, selectedEvent }) => {
   }, [selectedEvent]);
 
   return (
-    <div className="max-w-5xl w-full h-[40rem] mx-auto mt-10">
+    <div className="w-full max-w-5xl h-[720px] mx-auto">
       <GoogleMapReact
         bootstrapURLKeys={{ key: "" }}
         center={userLocation}
@@ -35,7 +36,14 @@ const Map = ({ events, selectedEvent }) => {
         defaultZoom={userLocation.zoom}
       >
         {eventLocations.map((markerProps, index) => (
-          <Marker {...markerProps} key={index} />
+          <Marker
+            {...markerProps}
+            key={index}
+            onClick={(id) => {
+              const updatedEvent = findEvent(events, id);
+              onSelectEvent && onSelectEvent(updatedEvent);
+            }}
+          />
         ))}
       </GoogleMapReact>
     </div>

@@ -6,8 +6,9 @@ export const transformEventData = (events) => {
     const eventLocation = getEventLocation(event);
     const pastEvent = isPastEvent(event);
     if (eventLocation) {
-      const isPastEvent = eventLoations.push({
-        id: event.slug,
+      eventLoations.push({
+        slug: event.slug,
+        id: event.id,
         title: event.title.rendered,
         isPastEvent: pastEvent,
         ...eventLocation,
